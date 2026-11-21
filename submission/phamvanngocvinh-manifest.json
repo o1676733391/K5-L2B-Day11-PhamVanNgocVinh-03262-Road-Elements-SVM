@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "phamvanngocvinh",
+  "revision": 1,
+  "created_at": "2026-11-21T04:17:59+00:00",
+  "files": [
+    {
+      "file": "phamvanngocvinh-front.zip",
+      "bytes": 1364,
+      "sha256": "6a6b6d3a382a00e84fdfe32189195e92b21d341f2a03e4757c5fb9f1584a06a0",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 2,
+        "drivable": 15,
+        "lane": 29,
+        "road_curb": 2,
+        "traffic_light": 7,
+        "traffic_sign": 6
+      }
+    },
+    {
+      "file": "phamvanngocvinh-fisheye.zip",
+      "bytes": 1152,
+      "sha256": "6c518041fcd77f8373db58d5cb4c3716a3dfe476dbd3e2080059f1f5f65db2f5",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 4,
+        "drivable": 8,
+        "lane": 12,
+        "road_curb": 2,
+        "traffic_light": 1,
+        "traffic_sign": 1
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 0,
+    "chính": 0,
+    "nhẹ": 1
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
